@@ -8669,6 +8669,19 @@
       "name": "Caltex"
     }
   },
+  "amenity/fuel|Caltex Woolworths": {
+    "nocount": true,
+    "nomatch": [
+      "shop/convenience|Caltex Woolworths"
+    ],
+    "tags": {
+      "amenity": "fuel",
+      "brand": "Caltex Woolworths",
+      "brand:wikidata": "Q5023980",
+      "brand:wikipedia": "en:Caltex Woolworths",
+      "name": "Caltex Woolworths"
+    }
+  },
   "amenity/fuel|Canadian Tire": {
     "count": 196,
     "tags": {
@@ -10572,12 +10585,8 @@
   },
   "amenity/fuel|Woolworths Petrol": {
     "count": 209,
-    "nomatch": [
-      "shop/convenience|Woolworths Petrol"
-    ],
     "tags": {
       "amenity": "fuel",
-      "brand": "Woolworths Petrol",
       "name": "Woolworths Petrol"
     }
   },
@@ -21516,6 +21525,8 @@
     "nomatch": ["amenity/fuel|Coles Express"],
     "tags": {
       "brand": "Coles Express",
+      "brand:wikidata": "Q5144653",
+      "brand:wikipedia": "en:Coles Express",
       "name": "Coles Express",
       "shop": "convenience"
     }
@@ -24365,11 +24376,10 @@
   },
   "shop/department_store|Target": {
     "count": 1253,
-    "match": ["shop/supermarket|Target"],
     "tags": {
       "brand": "Target",
-      "brand:wikidata": "Q1046951",
-      "brand:wikipedia": "en:Target Corporation",
+      "brand:wikidata": "Q7685854",
+      "brand:wikipedia": "en:Target Australia",
       "name": "Target",
       "shop": "department_store"
     }
@@ -29276,6 +29286,8 @@
     "count": 620,
     "tags": {
       "brand": "Coles",
+      "brand:wikidata": "Q1108172",
+      "brand:wikipedia": "en:Coles Supermarkets",
       "name": "Coles",
       "shop": "supermarket"
     }
@@ -31342,6 +31354,13 @@
       "shop": "supermarket"
     }
   },
+  "shop/supermarket|Target": {
+    "count": 202,
+    "tags": {
+      "name": "Target",
+      "shop": "supermarket"
+    }
+  },
   "shop/supermarket|Tegut": {
     "count": 89,
     "match": ["shop/supermarket|tegut"],
@@ -31641,6 +31660,8 @@
     "count": 872,
     "tags": {
       "brand": "Woolworths",
+      "brand:wikidata": "Q3249145",
+      "brand:wikipedia": "en:Woolworths Supermarkets",
       "name": "Woolworths",
       "shop": "supermarket"
     }
